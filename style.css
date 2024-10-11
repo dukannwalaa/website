@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+header{
+    margin: 120px;
+    font-size: 2rem;
+}
+#home{
+    font-size: 7rem;
+    margin: 100px;
+}
+#home p{
+    font-size: 2rem;
+}
+#home button{
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    border-color: #c8c971;
+    border-width: 5px;
+    font-weight: bold;
+    padding: 15px 15px 15px 15px;
+}
+#home button:hover{
+    background-color: rgb(241, 241, 241);    
+    color: rgb(0, 0, 0);
+}
