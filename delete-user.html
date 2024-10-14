@@ -1,0 +1,80 @@
+<html>
+<head>
+    <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdhlbuoqxcz0u-YjMRwJTx0NpCyAZQff5jxJGOU1JdDm4XOjg/viewform?embedded=true" width="640" height="656" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fff;
+        }
+        .container {
+            text-align: left;
+            width: 50%;
+        }
+        .header {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .delete-request {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .delete-request i {
+            margin-right: 10px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #000;
+            border-radius: 4px;
+        }
+        .submit-btn {
+            background-color: #a0e7c5;
+            color: #000;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Dukanwalaa</div>
+        <div class="delete-request">
+            <i class="fas fa-user"></i>
+            <span>Delete Account Request</span>
+        </div>
+        <div class="form-group">
+            <label for="mobile-number">Mobile Number</label>
+            <input type="text" id="mobile-number" value="9169947371" maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits" required>
+        </div>
+        <button class="submit-btn">Submit</button>
+        <div class="message">
+            We have received your request your data will be removed from our end with in 90days.
+        </div>
+    </div>
+</body>
+</html>
